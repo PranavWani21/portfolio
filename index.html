@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel = "icon" href = "img/boy avatar image.jpg"
+        type = "image/x-icon">
+    <title>Pranav Wani</title>
+</head>
+
+<body>
+    <!--  Navigation Bar-->
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"> <img src="img/boy avatar image.jpg" alt="logo"> </div>
+            <li> <a href="#">Home </a> </li>
+            <li> <a href="#about">About </a> </li>
+            <li> <a href="#project"> My Projects </a> </li>
+            <li> <a href="#contact"> Contact </a> </li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+          <a href="index.html">  <button class="btn btn-sm">Search</button>  </a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Hey,</p>
+                <p class="text-big"> I'm Pranav </p>
+                <p class="text-small" style="color: white;"> Student | Developer | Explorer </p>
+                <div class="buttons">
+                 <a href="index.html">  <button class="btn">Get CV</button>  </a> 
+                     <!--     <button class="btn">Hire me</button>    -->
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="img/boy avatar image.jpg" alt="boy image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About section   -->
+    <section class="section" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">About Myself</p>
+            <p class="sectionSubTag text-small">I'm a freshman persuing my B.Tech Degree in Computer Engineering at
+                SVKM's Institute Of Technology, Dhule.</p>
+            <p class="sectionSubTag text-small"> I'm always ready to have new experiences, meet new peoples and learn
+                new things. I have strong inclination towards programming and finding optimize answer to real life
+                problems. </p>
+               <p class="sectionSubTag text-small">   I try to find new and creative solutions to given complex problems. I always look for diving
+                into new challenges that will strengthen my skills as well as test my knowledge. Exploring new
+                technologies is something, I enjoy a lot. </p>
+                <p class="sectionSubTag text-small">
+                An innate sense of responsibility and dedication towards my
+                work makes me confident.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/random/900×700/?coding,apple" alt="laptop">
+        </div>
+    </section>
+
+    <!--  Skill section   -->
+    <section class="section section-left" style="margin-bottom:35px;">
+        <div class="paras">
+            <p class="sectionTag text-big">My Skills</p>
+          <!--   <p class="sectionSubTag text-small">  HTML  </p>  --> 
+          <div class="skills">
+            <div class="details">
+              <span>C/C++</span>
+              <span>65.78%</span>
+             </div>
+             <div class="bar">
+               <div class="background" id="c-c"></div>
+             </div>
+           </div>
+
+            <div class="skills">
+                <div class="details">
+                   <span>HTML</span>
+                   <span>90%</span>
+                </div>
+                <div class="bar">
+                  <div class="background" id="html-bar"></div>
+                </div>
+              </div>
+              
+             
+
+              <div class="skills">
+                <div class="details">
+                  <span>CSS</span>
+                  <span>75%</span>
+                 </div>
+                 <div class="bar">
+                   <div class="background" id="css-bar"></div>
+                 </div>
+               </div>
+               
+               
+               <div class="skills">
+                <div class="details">
+                  <span>Javascript</span>
+                  <span>46.78%</span>
+                </div>
+               
+                 <div class="bar">
+                 <div class="background" id="js-bar"></div>
+                </div>
+               </div>
+               
+               
+               
+               <div class="skills">
+                <div class="details">
+                  <span>Python</span>
+                  <span>30%</span>
+                </div>
+                <div class="bar">
+                 <div class="background" id="jQuery-bar"></div>
+                 </div>
+               </div>
+
+
+
+
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/random/900×700/?laptop" alt="laptop">
+        </div>
+    </section>
+
+    <!--  Project section   -->
+    <p class="text-big section">Projects</p>
+    <section class="section section-left" id="project" style="margin-bottom:35px;">
+        <!--  
+        <div class="thumbnail">
+            <img src="" alt="">
+        </div>
+
+        <div class="thumbnail">
+            <img src="" alt="">
+        </div> 
+    -->
+
+        <div class="thumbnail">
+            <figure>  
+            <img src="img/project1.jpg" alt="Drawing app">
+            <figcaption class="figure-caption">Drawing App Using </figcaption>
+            <figcaption class="figure-caption"> HTML CSS Javascript </figcaption>
+            <figcaption class="figure-caption"> <a href="#top"><button class="btn btn-sm btn-dark">View</button></a> </figcaption>
+        </figure>
+        </div>
+    </section>
+
+    <!--  contact section   -->
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact</h2>
+        <div class="form">
+            <form action="https://sheetdb.io/api/v1/ktdsmenay5b19" method="post" id="sheetdb-form">
+                <input class="form-input" type="text" name="data[name]" id="name" placeholder="Enter your name" required>
+                <input class="form-input" type="text" name="data[phone]" id="phone" placeholder="Enter your phone" required>
+                <input class="form-input" type="text" name="data[email]" id="email" placeholder="Enter your email" required>
+                <textarea class="form-input" name="data[text]" id="text" cols="30" rows="10"
+                    placeholder="Message"></textarea>
+                <button class="btn btn-sm btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="background" style="text-align: end; color: white; font-family: 'Ubuntu', sans-serif; padding:0 130px;">Follow me</p>
+        <div class="background footer-image footer-image-div">
+           <a href="https://www.instagram.com/pranavwani21/">  <img src="img/instagram logo.png" alt="instagram logo"> </a>
+           <a href="https://in.linkedin.com/in/pranav-wani-b2833b212"> <img src="img/linkdin logo.png"  alt="linkdin logo"> </a>
+           <a href="https://github.com/PranavWani21"> <img src="img/github logo.jpg" alt="Github">   </a> 
+          <a href="https://mobile.twitter.com/PranavWani21">   <img src="img/twitter logo.webp" alt="Twitter"> </a>
+          <a href="https://m.facebook.com/100068181938587">   <img src="img/facebook logo.webp" alt="facebook"> </a>
+        </div>
+        <p class="text-footer background">
+            copyright &copy; Pranav Wani - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>
