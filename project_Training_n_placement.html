@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <title>Placement Management System</title>
+    <style>
+      body{
+        background-color: white;
+        color: black;
+        font-family: serif;
+        letter-spacing: 0.5px;
+        /* background: rgba(0, 0, 0, 0.7) url('../img/background image.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white; */
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      a{
+        /* text-decoration: none; */
+        color: blue;
+      }
+      a:hover{
+        color: rgb(92, 88, 88);
+      }
+      
+      #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  /* background-color: red; */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.7) url('../img/background image.png');
+      background-size: cover;
+      background-blend-mode: darken;
+      color: white"
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+    </style>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+            <br> 
+            
+    <div class="container-fluid">
+      <div class="container" style="background: rgba(0, 0, 0, 0.7) url('../img/background image.png');
+      background-size: cover;
+      background-blend-mode: darken;
+      color: white">
+      <br>
+      <p ><a href="/" style="color: white;">Home</a></p>
+        <h1 class="my-4 text-center text-light font-xl">Placement Management System</h1>
+    
+        <div class="container-fluid col-xl-5" style="margin-top: 80px; margin-bottom: 75px; font-size: 1.2rem;">
+            <div class="card o-hidden bg-dark  border border-light rounded-9">
+              <div class="card-body bg-dark">
+                <div class="text-center card-font-size"> 
+                  <p style="color: white;">
+                    Made by
+                    <a href="https://in.linkedin.com/in/pranav-wani-b2833b212" target="_blank" style="color: white;"> Pranav Wani </a>
+                  </p>
+                </div>
+              </div>                  
+            </div>
+          </div>
+          <br>
+        </div> 
+
+
+        
+
+     <div class="container mt-5">
+        <h3 class="mb-3">Tech Stack used</h3>
+        <div class="row">
+        <div class="m-1 border border-dark col-xl-4 col-sm-12 p-3"  style=" border: 4px solid black;
+        border-radius: 10px;">
+            <h4 class="text-dark"> Frontend </h4>
+            <ul type=none>
+                <li>HTML5</li>
+                <li>CSS - Cascading Style Sheets</li>
+                <li>Js - JavaScript</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+
+        <div class="m-1 border border-dark col-xl-4 col-sm-12 p-3" style=" border: 4px solid black;
+        border-radius: 10px;">
+            <h4 class="text-dark"> Backend </h4>
+            <ul type=none>
+                <li>MySql</li>
+                <li>Php</li>
+            </ul>
+        </div>
+    </div>
+    
+
+        <!-- <div class="m-1 border border-dark col-xl-5 col-sm-12 p-3">
+            <h4 class="text-light"> Tools used and References </h4>
+            <ul type=none>                            
+                <li><a href="https://www.npmjs.com/" target="_blank">NPM</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank"> MDN Documentation</a></li>
+                <li><a href="https://www.canva.com/" target="_blank">Canva</a></li>
+                <li>VS Code</li>
+                <li>Local Host</li>
+            </ul>
+        </div>         -->
+    </div>
+  </div>
+</div>   
+
+    <div class="container-sm text-center mt-5 mb-3">
+        <!-- <b>Note :-</b> As the app is made for certain authorized users only. You can have a view on its tech stack and UI, 
+        though !! :) -->
+    </div>
+
+
+    <div class="container col-xl-8 col-sm-12">
+      <div class="container-sm mt-5 mb-3">
+       <h4 id="highlights"> Highlights of Project      </h4>
+        <video width="320" height="240" controls>
+          <source src="videos/tnp highlights.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+        Your browser does not support the video tag.
+        </video>
+  </div>
+
+
+
+      <div class="container col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+           1) After landing page, there is login page for authorized users (Admin/TNP Faculty/Registered students). The Faculty and student login page is same as Admin login.
+        </div>
+        <img
+          src="img/tnp login page.png"
+          class="img-fluid border border-primary rounded-9"
+          alt="..."
+        />
+      </div>
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+           2) After login into the web app, users will be having a Dashboard with some stats in blocks with there name 
+           on top and the sidebar on left. Whole website is dynamic so any changes in data will automatically gets reflected.
+        </div>
+        <img
+          src="img/dashboard.png"
+          class="img-fluid border border-primary"
+          alt="..."
+        />
+      </div>
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+           3) Student table with data of all students. If you want to see previous batches record just 
+           click on button provided above, it will opens a modal and you can see the students details of respective batch. 
+           You can add, edit/update, Search, the student record and can delete as well.
+       </div>       
+        <img
+          src="img/tnp student data page.png"
+          class="img-fluid border border-primary"
+          alt="..."
+        />
+      </div>
+
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+           4) Creating user / registration is allowed only from inside of the app. You can search and delete the user. 
+       </div>       
+        <img
+          src="img/tnp all users page.png"
+          class="img-fluid border border-primary"
+          alt="..."
+        />
+      </div>
+
+      
+
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+           5) Analysis of stored data. You can take the print of reports also.
+       </div>       
+        <!-- <img
+          src="img/tnp analytics page.png"
+          class="img-fluid border border-primary"
+          alt="..."
+        /> -->
+
+        <video class="img-fluid border border-primary"  autoplay loop>
+          <source src="videos/print report.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+        Your browser does not support the video tag.
+        </video>
+
+      </div>
+      
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+         6) Authenticity: If student got offer letter then he/she has to inform to admin/tnp faculty first
+          and then only he/she is able to update placement related fields, else profile is not updated.
+        </div>       
+        <video class="img-fluid border border-primary"  autoplay loop>
+          <source src="videos/tnp authenticity.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+        Your browser does not support the video tag.
+        </video>
+      </div>
+
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+       7) Security: Each module is isolated from others.
+          for ex. Student could not access admin pages.
+        </div>       
+        <video class="img-fluid border border-primary"  autoplay loop>
+          <source src="videos/tnp security.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+        Your browser does not support the video tag.
+        </video>
+      </div>
+
+
+      <div class="container-sm col-xl-8 col-sm-12">
+        <div class="container-sm mt-5 mb-3">
+          <a href="#highlights">Highlights Of Project</a>
+        </div>       
+        
+      </div>
+
+    </div>
+
+
+
+
+    <br>
+    <div class="container-sm text-center mt-3 mb-1">
+      Thank You for your time  !!
+    </div>       
+    
+    <p class="font-weight-light text-center mt-3 mb-3">Made with <img src="img/Love_Heart_SVG.svg.png" alt="love" style="height: 15px;"> by <a href="https://mobile.twitter.com/PranavWani21" style="color: black; text-decoration: none;">Pranav Wani</a></p>         
+  
+  
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+  </body>
+</html>
