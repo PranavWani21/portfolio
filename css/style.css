@@ -326,3 +326,21 @@ html{
         width: 30%;
     }
 } 
+
+#php-bar{
+    animation: php-fill 2s forwards;
+}
+@keyframes php-fill{
+    100%{
+        width: 75%;
+    }
+} 
+
+#mysql-bar{
+    animation: mysql-fill 2s forwards;
+}
+@keyframes mysql-fill{
+    100%{
+        width: 65%;
+    }
+} 
