@@ -7,7 +7,9 @@ form.addEventListener("submit",e=>{
     }).then(
         response => response.json()
     ).then((html)=>{
-        window.open("thank_you.html",'blank')
+        // window.open("thank_you.html",'blank')
+        alert("Your words means a lot to me | I will contact you soon | Thank You!!")
+
     });
 
 });
