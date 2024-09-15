@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Your Device</title>
+    <style>
+        body {
+            background-color: rgb(72, 194, 72);
+        }
+
+        .messages {
+            display: flex;
+        }
+
+
+        #workingAnimation span {
+            display: inline-block;
+            animation-name: blink;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+        }
+
+        #workingAnimation span:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        #workingAnimation span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes blink {
+            50% {
+                color: transparent;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+    </div>
+
+    <script src="hecking_terminal.js"></script>
+</body>
+
+</html>
